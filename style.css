@@ -1,0 +1,53 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+div {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 12px;
+}
+button {
+  background-color: #e7f1ed;
+  border: none;
+  padding: 12px 25px;
+  font-size: 26px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00cc77;
+}
+a {
+  color: #00ff99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #0ca065;
+  border: none;
+  padding: 12px 25px;
+  font-size: 26px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #49504d;
+}
+a {
+  color: #00ff99;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
