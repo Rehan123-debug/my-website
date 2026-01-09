@@ -1,16 +1,18 @@
-let score = 0;
+let count1 = 0;
+let count2 = 0;
 
-document.getElementById("countBtn").onclick = function () {
-  score++;
-  document.getElementById("count").textContent = score;
+const button1 = document.getElementById("clickBtn1");
+const button2 = document.getElementById("clickBtn2");
 
-  if (score === 10) {
-    document.getElementById("message").textContent =
-      "Nice! You reached 10 clicks 🔥";
-  }
+const text1 = document.getElementById("count1");
+const text2 = document.getElementById("count2");
 
-  if (score === 20) {
-    document.getElementById("message").textContent =
-      "20 clicks! You're cracked 😎";
-  }
+button1.onclick = function () {
+  count1 = count1 + 1;
+  text1.textContent = count1;
+};
+
+button2.onclick = function () {
+  count2 = count2 + 1;
+  text2.textContent = count2;
 };
